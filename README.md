@@ -17,3 +17,6 @@ Johnson noise is white noise caused by thermal fluctuations in resistors.
 Heat = atoms vibrating , atoms vibrating = charge characters (electrons being knocked around) 
 
 my idea for noise consolidation , is to filter out any introductory noise via LC and RC filters, mains hum and EMI will be delt with prior to current being inputted into the 5U4G tube.
+
+I calculate the proportional johnson noise produced per resistor in my amplification , sum the noise, then square root that amplitude and the ADC baseline from the final Fourier Transform of shot noise. 
+
